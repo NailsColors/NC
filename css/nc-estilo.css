@@ -1,0 +1,611 @@
+body
+{
+  margin: 0px;
+}
+body
+{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+/*--------------------------------*/
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+
+
+.header
+{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+#btn-menu
+{
+  display: none;
+}
+
+.header a:hover{
+  background-color: white;
+  color: #333
+}
+
+.logo{
+  margin: 0px;
+}
+.header-logo
+{
+  height: 75px;
+  margin:9px
+}
+
+header label{
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+header label:hover{
+  cursor: pointer;
+}
+
+
+.menu ul
+{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu li{
+  border-right: 1px solid white;
+}
+
+
+
+.menu li a
+{
+  display: block;
+  padding: 35px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu li:hover {
+  background: rgba(250, 230, 248, 0.4);
+}
+
+
+
+
+
+
+
+.banner{
+  position: relative;
+  width: 100%;
+  height: 36pc;
+  background-color: rgb(255, 191, 191);
+  background-position: center;
+  background-size: cover;
+  transition: all .1s ease-in-out;
+  background-image: url("images/banner/banner2.jpg");
+  animation: banner 28s infinite linear;
+}
+
+.banner-alt{
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/background/conocea.jpeg");
+}
+
+.banner-alt-content h1{
+  margin: 0px 60px;
+  padding: 0;
+  padding-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.25em;
+  font: normal normal normal 72px/1.25em raleway,sans-serif;
+}
+
+.font7
+{
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.67em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.font8
+{
+  font-size: 17px;
+  text-align: center;
+  line-height: 2em;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  margin: 0px 30px;
+}
+.banner-alt-content
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner-alt-bet{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/background/servicios.jpeg");
+}
+
+.banner-alt-bet-content
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.banner-content
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  background-color: rgba(194, 66, 183, .4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.banner-content h1{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+.banner-content a{
+  text-decoration: none;
+  color: white;
+  padding:9px 20px;
+  border:   1px solid white;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+
+}
+.banner-content a:hover{
+  background-color: white;
+  color: #333
+
+}
+
+@keyframes banner {
+  0%{
+    background-image: url("images/banner/banner2.jpg");
+  }
+  25%{
+    background-image: url("images/banner/banner2.jpg");
+  }
+  26%{
+    background-image: url("images/banner/banner1.jpg");
+  }
+  50%{
+    background-image: url("images/banner/banner1.jpg");
+  }
+  51%{
+    background-image: url("images/banner/banner3.jpg");
+  }
+  75%{
+    background-image: url("images/banner/banner3.jpg");
+  }
+  76%{
+    background-image: url("images/banner/banner4.jpg");
+  }
+  100%{
+    background-image: url("images/banner/banner4.jpg");
+  }
+}
+
+.hero{
+  height: 400px;
+  background-color: white;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.hero h2
+{
+  color:#E076DA;
+  padding: 120px 0px;
+  font-family: 'Quicksand', sans-serif;
+  /*border: 1px solid lightcoral;*/
+  width: 950px;
+  font-size: 40px;
+  font-weight: 500;
+}
+  
+.hero p{
+  color:black
+}
+.hero-image
+{
+  object-fit: cover;
+  margin-right: 40px;
+  height: 270px;
+  border: 10px solid lightcoral;
+  border-radius: 500px;
+  background-color: rgba(194, 66, 183, .5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-family: 'Raleway', sans-serif;
+}
+h1
+{
+  font-size: 40px;
+  margin:0;
+  color: white;
+  font-weight: 300;
+}
+strong
+{
+  color: #8B1681;
+}
+
+.contact
+{
+  background-color: rgb(0, 0, 0) ;
+  color:white;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-text
+{
+  padding-left: 30px;
+}
+.contact h3
+{
+  font-size: 38px;
+  margin-bottom: 10px;
+
+}
+.contact p
+{
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+  display: flex;
+}
+.social-link
+{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+
+}
+.social-link.instagram{
+  background-image: url("../images/instagram.svg");
+  background-size: 60px 60px;
+  margin: 10px;
+}
+
+.contact-button
+{
+  text-decoration: none;
+  color: white;
+  padding:9px 20px;
+  border:   1px solid white;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+}
+.contact-button:hover{
+  background-color: white;
+  color: #333
+
+}
+.contact-social
+{
+  flex-direction: column;
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+
+.jobs h3{
+  font-weight: 500;
+  font-size: 24px;
+  color: black
+}
+.jobs p
+{
+  color: black;
+  line-height: 2;
+}
+.jobs-types
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.jobs-image
+{
+  object-position: 50% 50%;
+  width: 460px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.jobs-text
+{
+  width: 500px;
+}
+.jobs-types
+{
+  margin: 50px 0px;
+}
+
+
+.footer{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  display:flex;
+  align-items: center;
+  height: auto;
+  justify-content: space-around;
+}
+.footer img {
+  vertical-align: middle;
+}
+.footer a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.footer p{
+  font-size: 18px;
+  margin: 0px;
+}
+.footer-logo
+{
+  width: 90px;
+  padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) 
+{
+  header label
+  {
+    display: flex;
+    width: 190px;
+    height: 190px;
+  }
+
+  .header{
+    height: auto;
+  }
+
+  .header-box
+  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .header-logo
+  {
+    height: 185px;
+    padding: 20px;
+  }
+
+  .header-menu
+  {
+    width: 100%;
+  }
+  .menu{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 72%;
+    margin-left: -82%;
+    transition:all 0.5s ;
+    z-index: 100;
+    padding-top: 70%;
+    padding-bottom: 70%;
+    padding-left: 10%;
+    border-bottom-right-radius: 30px ;
+    
+
+  }
+  .menu ul
+  {
+    flex-direction: column;
+  }
+  #btn-menu:checked ~ .menu{
+    margin: 0px
+  }
+  .menu li a 
+  {
+    font-size: 60px;
+    color: black;
+  }
+
+
+
+
+
+  .font8
+  {
+    font-size: 40px;
+  } 
+  .font7
+  {
+    font-size: 45px;
+  }
+  .banner
+  {
+    height: 70pc;
+  }
+  .banner-alt
+  {
+    height: 980px;
+  }
+  .banner-content h1 
+  {
+    font-size: 60px;
+  }
+  .banner-content a
+  {
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .contact-instagram
+  {
+    width: 90%;
+  }
+  .contact-apart
+  {
+    width: auto;
+    display: flex;
+    margin: 50px 0px;
+  }
+  .contact .container{
+    flex-direction: column;
+  }
+  .contact
+  {
+    height: auto;
+    padding-top: 60px;
+  }
+  .contact-text
+  {
+    padding: 0px;
+    padding-right: 40px;
+  }
+  .contact h3 {
+    font-size: 70px;
+    margin: 0px
+  }
+  .contact p {
+    font-size: 50px;
+    margin:0px;
+  }
+  .contact-button
+  {
+    font-size: 38px;
+  }
+
+  .banner-alt-bet
+  {
+    height: 600px;
+  }
+
+  .banner-alt-bet-content h1
+  {
+    font-size:60px
+  }
+  .jobs-container
+  {
+    width: 92%;
+  }
+  .jobs-types
+  {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .jobs-text{
+    width: 90%;
+  }
+  .jobs-image
+  {
+    width: 100%;
+    height: 600px;
+  }
+  .jobs p
+  {
+    font-size: 30px;
+  }
+  .jobs h3
+  {
+    font-size: 65px;
+    color:black
+  }
+  .footer
+  {
+    height: 250px;
+  }
+  .footer p
+  {
+    font-size: 27px;
+  }
+  .footer a
+  {
+    font-size: 27px;
+  }
+  .footer-logo
+  {
+    width: 150px;
+  }
+}
