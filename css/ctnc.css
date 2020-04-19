@@ -141,6 +141,27 @@ header label:hover{
   margin-bottom: 30px;
   font-weight: 100;
 }
+.horario-aviso
+{
+  margin: 0px 150px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around; 
+  padding: 0px 35px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.horario-alerta
+{
+  font-size: 60px;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+  
+}
 
 .horario-day
 {
@@ -353,6 +374,9 @@ header label:hover{
   .horario-title
   {
     padding: 250px 0px;
+  }
+  .horario-aviso {
+    margin: 30px 40px;
   }
   .footer
   {
