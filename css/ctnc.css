@@ -294,8 +294,11 @@ header label:hover{
   header label
   {
     display: flex;
-    width: 190px;
-    height: 190px;
+    width: 180px;
+    height: 180px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
   }
 
   .header{
