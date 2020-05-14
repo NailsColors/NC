@@ -37,10 +37,16 @@ font-family: 'Raleway', sans-serif;*/
 .logo{
   margin: 0px;
 }
+
 .header-logo
 {
   height: 75px;
-  margin:9px
+  margin:9px;
+  border-radius: 200px;
+}
+.header-banner
+{
+  display: none;
 }
 
 header label{
@@ -109,26 +115,26 @@ header label:hover{
 
 
 .galeria {
-    width: 90%;
-    margin: auto;
-    list-style: none;
-    padding: 20px;
-    box-sizing: border-box;
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
     
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .galeria li {
-    margin: 5px;
+  margin: 5px;
 }
 
 .galeria img {
-    width: 262px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 7px;
+  width: 262px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 7px;
 }
 /*Estilos del modal*/
 
@@ -240,10 +246,12 @@ header label:hover{
   text-decoration: none;
   font-size: 18px;
 }
+
 .footer p{
   font-size: 18px;
   margin: 0px;
 }
+
 .footer-logo
 {
   width: 90px;
@@ -252,15 +260,22 @@ header label:hover{
 
 
 
-  @media screen and (max-width: 1000px) 
-  {
+@media screen and (max-width: 1000px) 
+{
     header label
     {
       display: flex;
-      width: 180px;
-      height: 180px;
-      padding-bottom: 30px;
+      width: 100px;
+      height: 100px;
+      padding-bottom: 60px;
       padding-right: 30px;
+    }
+  
+    .header-banner
+    {
+      display: block;
+      width: 450px;
+      padding: 85px 0px;
     }
   
     .header{
@@ -363,4 +378,4 @@ header label:hover{
     {
       width: 150px;
     }
-  }
+}

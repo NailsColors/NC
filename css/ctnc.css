@@ -38,10 +38,16 @@ font-family: 'Raleway', sans-serif;*/
 .logo{
   margin: 0px;
 }
+
 .header-logo
 {
   height: 75px;
-  margin:9px
+  margin:9px;
+  border-radius: 200px;
+}
+.header-banner
+{
+  display: none;
 }
 
 header label{
@@ -294,12 +300,18 @@ header label:hover{
   header label
   {
     display: flex;
-    width: 180px;
-    height: 180px;
-    padding-bottom: 30px;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 60px;
     padding-right: 30px;
   }
-  
+
+  .header-banner
+  {
+    display: block;
+    width: 450px;
+    padding: 85px 0px;
+  }
 
   .header{
     height: auto;
